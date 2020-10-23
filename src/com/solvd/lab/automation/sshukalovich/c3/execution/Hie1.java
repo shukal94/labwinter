@@ -4,8 +4,6 @@ import com.solvd.lab.automation.sshukalovich.c3.enums.Color;
 import com.solvd.lab.automation.sshukalovich.c3.factory.ButtonFactory;
 import com.solvd.lab.automation.sshukalovich.c3.factory.RadioButtonFactory;
 import com.solvd.lab.automation.sshukalovich.c3.interfaces.IComponent;
-import com.solvd.lab.automation.sshukalovich.c3.interfaces.IDraw;
-import com.solvd.lab.automation.sshukalovich.c3.interfaces.IInput;
 import com.solvd.lab.automation.sshukalovich.c3.model.Coordinates2D;
 import com.solvd.lab.automation.sshukalovich.c3.model.button.RadioButton;
 import com.solvd.lab.automation.sshukalovich.c3.model.field.InputField;
