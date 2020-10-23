@@ -1,0 +1,14 @@
+Intro
+Java intro
+Jdk Jvm jre
+Ide
+First program (hello world)
+Main entry point
+Program args (hello vasya)
+Statements
+Variables
+Datatypes intro
+Operators
+If-else statements
+Cycles (for, while, do-while)
+
