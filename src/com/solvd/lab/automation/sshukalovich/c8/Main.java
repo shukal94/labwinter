@@ -71,13 +71,21 @@ public class Main {
 //        }
 //        System.out.println(line);
 
-        String numsStr = "1,2,3,4,5,6,7,8";
-        List<Integer> numsCol = Arrays.stream(numsStr.split(","))
-                .map(Integer::valueOf)
-                .filter(element -> element % 2 == 0)
-                .collect(Collectors.toList());
-        boolean found = numsCol.parallelStream().anyMatch(curElement -> curElement == 2);
-        System.out.println(found);
+//        String numsStr = "1,2,3,4,5,6,7,8";
+//        List<Integer> numsCol = Arrays.stream(numsStr.split(","))
+//                .map(Integer::valueOf)
+//                .filter(element -> element % 2 == 0)
+//                .collect(Collectors.toList());
+//        boolean found = numsCol.parallelStream().anyMatch(curElement -> curElement == 2);
+//        System.out.println(found);
+
+        Set<String> a = new HashSet<>(Arrays.asList("Hockey", "Football", "Basketball"));
+        System.out.println(a);
+
+        Set<Integer> b = new TreeSet<>(Arrays.asList(5, 3, 7, 3, 2, 8, 4, 8, 1, 7));
+        System.out.println(b);
+
+
 
 
 
