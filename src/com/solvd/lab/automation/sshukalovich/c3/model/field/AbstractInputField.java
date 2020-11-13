@@ -1,9 +1,8 @@
 package com.solvd.lab.automation.sshukalovich.c3.model.field;
 
 import com.solvd.lab.automation.sshukalovich.c3.interfaces.IClick;
-import com.solvd.lab.automation.sshukalovich.c3.interfaces.IDraw;
 import com.solvd.lab.automation.sshukalovich.c3.interfaces.IInput;
-import com.solvd.lab.automation.sshukalovich.c3.model.Coordinates2D;
+import com.solvd.lab.automation.sshukalovich.c3.model.coordinate.Coordinates2D;
 import com.solvd.lab.automation.sshukalovich.c3.model.UIComponent;
 
 public abstract class AbstractInputField extends UIComponent implements IClick, IInput {

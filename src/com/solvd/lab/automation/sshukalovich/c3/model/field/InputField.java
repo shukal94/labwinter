@@ -1,6 +1,6 @@
 package com.solvd.lab.automation.sshukalovich.c3.model.field;
 
-import com.solvd.lab.automation.sshukalovich.c3.model.Coordinates2D;
+import com.solvd.lab.automation.sshukalovich.c3.model.coordinate.Coordinates2D;
 
 public final class InputField extends AbstractInputField {
     public InputField(int width, int height, Coordinates2D coordinate, String name) {
