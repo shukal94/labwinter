@@ -2,7 +2,7 @@ package com.solvd.lab.automation.sshukalovich.c3.factory;
 
 import com.solvd.lab.automation.sshukalovich.c3.constant.SizeConstant;
 import com.solvd.lab.automation.sshukalovich.c3.enums.Color;
-import com.solvd.lab.automation.sshukalovich.c3.model.Coordinates2D;
+import com.solvd.lab.automation.sshukalovich.c3.model.coordinate.Coordinates2D;
 import com.solvd.lab.automation.sshukalovich.c3.model.button.RadioButton;
 
 public class RadioButtonFactory {

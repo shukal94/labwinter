@@ -1,4 +1,4 @@
-package com.solvd.lab.automation.sshukalovich.c3.model;
+package com.solvd.lab.automation.sshukalovich.c3.model.coordinate;
 
 import com.solvd.lab.automation.sshukalovich.c3.enums.Axis;
 

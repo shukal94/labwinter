@@ -1,7 +1,7 @@
 package com.solvd.lab.automation.sshukalovich.c3.model;
 
 import com.solvd.lab.automation.sshukalovich.c3.interfaces.IComponent;
-import com.solvd.lab.automation.sshukalovich.c3.interfaces.IDraw;
+import com.solvd.lab.automation.sshukalovich.c3.model.coordinate.Coordinates2D;
 
 public abstract class UIComponent implements IComponent {
     protected String name;
