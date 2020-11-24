@@ -3,10 +3,17 @@ package com.solvd.lab.automation.sshukalovich.c12.domain.base;
 import com.solvd.lab.automation.sshukalovich.c12.domain.coordinate.Point;
 import com.solvd.lab.automation.sshukalovich.c12.domain.interfaces.UIComponent;
 
-public abstract class BaseUIComponent implements UIComponent {
+import java.io.Serializable;
+
+public abstract class BaseUIComponent implements UIComponent, Serializable {
     private int color;
     private Point coordinates;
     private String text;
+
+    // define this if you don't wanna get hijacked
+//    public BaseUIComponent() {
+//
+//    }
 
     public BaseUIComponent(int color, Point coordinates, String text) {
         this.color = color;

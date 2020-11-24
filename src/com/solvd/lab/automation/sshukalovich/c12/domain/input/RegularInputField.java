@@ -4,7 +4,9 @@ import com.solvd.lab.automation.sshukalovich.c12.domain.base.BaseUIComponent;
 import com.solvd.lab.automation.sshukalovich.c12.domain.coordinate.Point;
 import com.solvd.lab.automation.sshukalovich.c12.domain.interfaces.InputField;
 
-public final class RegularInputField extends BaseUIComponent implements InputField {
+import java.io.Serializable;
+
+public final class RegularInputField extends BaseUIComponent implements InputField, Serializable {
     private int width;
     private int height;
 

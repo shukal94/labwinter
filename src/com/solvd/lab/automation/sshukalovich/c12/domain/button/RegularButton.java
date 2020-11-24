@@ -4,9 +4,15 @@ import com.solvd.lab.automation.sshukalovich.c12.domain.base.BaseUIComponent;
 import com.solvd.lab.automation.sshukalovich.c12.domain.coordinate.Point;
 import com.solvd.lab.automation.sshukalovich.c12.domain.interfaces.Button;
 
-public final class RegularButton extends BaseUIComponent implements Button {
+import java.io.Serializable;
+
+public final class RegularButton extends BaseUIComponent implements Button, Serializable {
     private int width;
     private int height;
+
+//    public RegularButton() {
+//        super();
+//    }
 
     public RegularButton(int color, Point coordinates, String text, int width, int height) {
         super(color, coordinates, text);

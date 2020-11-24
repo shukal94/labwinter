@@ -1,8 +1,10 @@
 package com.solvd.lab.automation.sshukalovich.c12.domain.coordinate;
 
-import com.solvd.lab.automation.sshukalovich.c3.enums.Axis;
+import com.solvd.lab.automation.sshukalovich.c12.enums.Axis;
 
-public class Point {
+import java.io.Serializable;
+
+public final class Point implements Serializable {
     private int x;
     private int y;
 
